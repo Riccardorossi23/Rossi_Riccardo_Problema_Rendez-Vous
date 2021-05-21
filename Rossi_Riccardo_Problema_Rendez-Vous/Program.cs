@@ -58,6 +58,7 @@ namespace Rossi_Riccardo_Problema_Rendez_Vous
                 w[i] = r.Next(0, 1000);
                 media += w[i];
             }
+
             n.Release();
 
             n1.Wait();
